@@ -1,2 +1,2 @@
 # Menu Responsivo
-Criando Site com minu responsivo( hamburguer)
+Criando Site com menu responsivo( hamburguer)
