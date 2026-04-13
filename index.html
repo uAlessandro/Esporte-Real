@@ -13,18 +13,19 @@
     <header>
         <h1> Esporte Real</h1>
         <hr>
-        <span class="material-symbols-outlined" >menu
-
-        </span>
-        <ul>
-            <menu id="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Jogos</a></li>
-                <li><a href="">Classificação</a></li>
-                <li><a href="">Notícias</a></li>
-                <li><a href="">Times</a></li>
+        <span id="menu-burguer" class="material-symbols-outlined" onclick="clickMenu()">menu
+ </span>
+            <menu id="omenu">
+                <ul>
+                
+                    <li><a href="">Home</a></li>
+                    <li><a href="https://ge.globo.com/agenda/#/futebol">Jogos</a></li>
+                    <li><a href="https://ge.globo.com/futebol/brasileirao-serie-a/">Classificação</a></li>
+                    <li><a href="https://ge.globo.com/futebol/">Notícias</a></li>
+                    <li><a href="">Times</a></li>
+                
+                </ul>
             </menu>
-        </ul>
     </header>
         <main>
            
@@ -33,7 +34,7 @@
 
                 <p>Jogador mais utilizado e que mais participou de gols na Era Leonardo Jardim, Pedro ganhou uma nova importância com a chegada do treinador. Neste domingo, às 18h (de Brasília), pelo Campeonato Brasileiro, ele pode alcançar marcas importantes contra a equipe que é o maior carrasco no elenco, o Fluminense.</p>
                 <picture>
-                    <img src="imagens/pedro.avif" alt="">
+                    <img src="imagens/pedro.avif" alt="imagem">
                 </picture>
                 
                 <p>Desde que chegou, o treinador português se preocupou em recuperar o atacante, especialmente do ponto de vista mental. Além disso, deu ao jogador uma nova função, com demandas defensivas e também ofensivas. O resultado tem sido visto no campo. Pedro tem três gols e uma assistência nas últimas oito partidas e foi titular sete vezes. Diante do Cusco, foi acionado no segundo tempo.</p>
@@ -43,7 +44,7 @@
 
                 <p>O Flamengo encaminhou a renovação do contrato de Bruno Henrique. O novo vínculo do atacante e ídolo rubro-negro terá validade até dezembro de 2027. Restam poucos detalhes para que o novo contrato seja assinado, mas já existe um acerto entre as partes.</p> 
                 <picture>
-                    <img src="imagens/brunohenrique.avif" alt="">
+                    <img src="imagens/brunohenrique.avif" alt="Imagem">
                 </picture>
                 <p>As poucas pendências ainda existentes são consideradas simples. Além do tempo de contrato, o salário também já foi acertado. As conversas evoluíram nos últimos dias depois de o Flamengo iniciar as tratativas no fim do mês passado.</p>
             </article>
@@ -51,6 +52,15 @@
         
     
     
-    
+        <script>
+            function clickMenu(){
+                if (omenu.style.display == 'block'){
+                    omenu.style.display = 'none'
+            }
+                else{
+                    omenu.style.display = 'block'
+                }
+                            }
+        </script>
 </body>
 </html>

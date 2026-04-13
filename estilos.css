@@ -19,14 +19,35 @@ header > h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-menu{
+#menu-burguer{
+    color: white;
+    text-align: center;
     display: block;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 25px;
 }
-menu > li {
+#menu-burguer:active {
+    font-size: 30px;
+    transition: 0.1s;
+   
+}
+#menu-burguer:hover{
+    font-size: 26px;
+
+
+}
+menu{
+    display: none;
+}
+
+
+
+menu > ul > li {
     list-style-type: none;
-    display: none ;
+   
 }
-menu > li > a {
+menu > ul > li > a {
     display: block;
     background-color: rgba(0, 0, 0, 0.163);
     text-decoration: none;
@@ -35,9 +56,11 @@ menu > li > a {
     text-align: center;
     border-top: 1px solid rgb(255, 255, 255);
 }
-menu > li > a:hover{
+menu > ul > li > a:hover{
     background-color: rgba(0, 0, 0, 0.651);
     transition: 0.5s;
+    font-weight: bolder ;
+    
 }
 
 main{
@@ -69,16 +92,9 @@ picture > img {
     box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.377);
 }
 
-.material-symbols-outlined{
-    color: white;
-    text-align: center;
-    display: block;
-    font-size: 40px;
-    font-weight: bold;
-}
-.material-symbols-outlined:hover {
+
     
-    color: rgb(232, 232, 232);
-    
-}
+  
+
+
    
