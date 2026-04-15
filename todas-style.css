@@ -24,7 +24,7 @@ h1{
    padding: 10px;
 }
 h1::after{
-    content: '⚽' ;
+    content: '🏆' ;
 }
 menu{
     border-color: black;
