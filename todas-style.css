@@ -1,0 +1,104 @@
+@charset "UTF-8"; 
+
+
+@media screen and (min-width: 678px) and (max-width: 1920px) {
+*{
+    padding: 0px;
+    margin: 0px;
+}
+   
+
+body,html{
+    background-color: #08a4460c;
+
+
+}
+header{
+     background-color: #06AA48;
+
+}
+h1{
+   font-family: 'Times New Roman', Times, serif;
+   color: white;
+   text-align: center;
+   padding: 10px;
+}
+h1::after{
+    content: '⚽' ;
+}
+menu{
+    border-color: black;
+    padding-bottom: 10px;
+    
+   
+    
+}
+#menu-burguer{
+    display: none;
+}
+menu ,a{
+    color: white;
+    text-decoration: none;
+   padding: 5px;
+    transition: 0.4s;
+    font-size: 20px;
+  
+
+    
+}
+menu li{
+    list-style-type: none;
+    display: inline-block;
+    transform: scale(1.05);
+    padding: 8px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a:hover{
+   
+  background-color: #010e0646;
+  border-radius: 5px;
+  padding: 5px;
+ 
+   
+   
+   
+
+    
+}
+main{
+    padding: 10px;
+    max-width: 700px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 10px;
+}
+    
+h2{
+    font-size: 25px;
+    padding-bottom: 10px;
+    color: #08a446;
+    padding-top: 10px;
+    
+}
+
+main, article,img{
+    max-width: 700px;
+}
+main > article > p{
+    padding-bottom: 10px;
+    padding: 10px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: Clamp(1rem, 2.1vh, 2.4rem);
+    display: block;
+   
+    
+
+}
+   
+}
+   
+    

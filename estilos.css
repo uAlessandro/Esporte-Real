@@ -19,6 +19,10 @@ header > h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+h1::after{
+    content: '🏆';
+
+}
 #menu-burguer{
     color: white;
     text-align: center;
