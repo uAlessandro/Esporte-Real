@@ -11,7 +11,7 @@
     
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1> Esporte Real</h1>
         <hr>
@@ -62,11 +62,24 @@
             function clickMenu(){
                 if (omenu.style.display == 'block'){
                     omenu.style.display = 'none'
-            }
+                     }
                 else{
                     omenu.style.display = 'block'
                 }
-                            }
+            
+            function mudouTamanho(){ 
+                if (window.innerWidth >= 668) {
+                 omenu.style.display = "block" }
+
+                else {
+                omenu.style.display = "none"
+                     }
+            }
+            
+
+            
+        
+                            
         </script>
 </body>
 </html>
